@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+.table {
+    width: 100%;
+    height: 600px;
+    border: 0px solid #fffdfd;
+    padding: 10px;
+}
+body {
+    background-color: #5fa6aa;
+    margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+p{
+	margin:10px;
+}
+#profile{
+    border: 1px solid #fffdfd; 
+    vertical-align:inherit;
+    cursor: pointer;
+}
+#profile2{
+    margin-right: 33%;
+    vertical-align:top;
+}
+.circle{ 
+    height: 80px;  
+    width: 80px;  
+    border: 3px solid #fff; 
+    border-radius: 50%; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+span{
+    color:  #fffdfd;
+}
+.detail {
+	border:solid;
+}
+.btPost {
+    background-color: #1515b9; 
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 15px;
+}
+.btn-group .btPost:hover {
+    background-color: #000066;
+}
+.btPost:active{
+    background-color: #000066;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.bt1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btLogout {
+    background-color: #45454b; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 15px;
+}
+.btn-group .btLogout:hover {
+    background-color: #1c1c1f;
+}
+.btLogout:active{
+    background-color: #1c1c1f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+div.iBannerFixTop{
+    height:50px;
+    position:fixed;
+    right:10px;
+    top:20px;
+    width:100%;
+    z-index: 99;
+}
+div.iBannerFixTop2{
+    height:30px;
+    position:fixed;
+    right:280px;
+    top:0px;
+    width:100%;
+    z-index: 99;
+}
+#name{
+	font-weight:bold;
+	color:#FFF;
+	font-size:25px;
+}
+#date{
+	color:#FFF;
+	font-size:18px;
+}
+#desc{
+	font-size:18px;
+}
+.bt {
+    background-color: #1515b9; 
+    border: none;
+    color: white;
+    padding: 10px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    border-radius: 15px;
+}
+.bt2 {
+    background-color: #c00404; 
+    color: white;
+    padding: 8px 116px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    border-radius: 15px;
+}
+
+.bt1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

@@ -1,0 +1,221 @@
+.table {
+    width: 100%;
+    height: 600px;
+    border: 0px solid #fffdfd;
+    padding: 10px;
+}
+body {
+    background-color: #5fa6aa;
+    margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.bt {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 15px;
+}
+.bt2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 68px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 15px;
+}
+.btLogin {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 20px 300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+span{
+    font-size: 20px;
+}
+.bt1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-group .bt:hover , .bt2:hover {
+    background-color: #207523;
+}
+.bt:active ,.bt2:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+a{
+	color: rgb(251, 251, 253);
+	text-decoration: none;
+}
+
+input {
+	width: 25em;
+	height: 35px;
+    float: center;
+	padding-left: 10px;
+	font-size:15px;
+}
+/* modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+.input-container {
+    display: -ms-flexbox; 
+    display: flex;
+    width: 100%;
+    margin-left: 15%;
+}
+.input-container2 {
+    display: -ms-flexbox; 
+    display: flex;
+    width: 100%;
+    margin-left: 33%;
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* ปุ่มหน้าregister */
+.btRE {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    border-radius: 15px;
+}
+.bt2RE {
+    background-color: #c00404;
+    border: none;
+    color: white;
+    padding: 10px 118px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    border-radius: 15px;
+}
+
+.bt1RE {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-group .btRE:hover {
+    background-color: #3e8e41;
+}
+.btn-group .bt2RE:hover {
+    background-color: #880101;
+}
+.btRE:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+h1{
+    color: white;
+}
+select {
+	padding-left: 10px;
+	width: 29.3%;
+	height: 42px;
+}

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:post_pic;datatype:string,name:post_desc;datatype:blob,name:post_location;datatype:string,name:post_tel;datatype:string,name:post_date;datatype:date,name:post_status;datatype:string,name:user_username;datatype:string,name:post_id;datatype:int,name:user_id;datatype:int,name:user_fname;datatype:string,name:user_lname;datatype:string,name:user_email;datatype:string,name:user_tel;datatype:string,name:user_gender;datatype:string" />
+</info>
