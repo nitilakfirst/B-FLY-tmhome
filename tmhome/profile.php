@@ -3,6 +3,11 @@
 if (!isset($_SESSION)) {
   session_start();
 }
+mysql_query('SET character_set_results=utf8');
+mysql_query('SET names=utf8');  
+mysql_query('SET character_set_client=utf8');
+mysql_query('SET character_set_connection=utf8');   
+mysql_query('SET character_set_results=utf8');   
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
 {
@@ -55,7 +60,7 @@ $totalRows_Recordset1 = mysql_num_rows($Recordset1);
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Take Me Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="profile.css" />
